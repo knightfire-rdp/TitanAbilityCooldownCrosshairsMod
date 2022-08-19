@@ -14,7 +14,7 @@ This Mod aims to add pilot ability cooldown crosshairs onto titans
 | Monarch               | Rearm(Utility)           | Missile Salvo/Missile Rack(Offensive) |
 
 BTW, crosshairs don't work properly with Vortex-..-, Thermalshield, and MTMS (Multi Target Missile System).
-Ion has only one ability on crosshair due to incompactibility issues.
+Ion has only one ability crosshair due to incompactibility issues.
 
 I selected **Left Crosshairs** based on ability synergy, basically, I placed abilities which would benefit more out of them
 than a defensive ability like infinite swordblock or broken Vortex etc.
