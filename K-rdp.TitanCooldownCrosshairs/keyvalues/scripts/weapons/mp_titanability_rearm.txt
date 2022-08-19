@@ -1,0 +1,45 @@
+WeaponData
+{
+	active_crosshair_count				"2"
+	rui_crosshair_index					"0"
+	"ordnance_crosshair_always_on_start_index"	"1"
+
+	RUI_CrosshairData
+	{
+		DefaultArgs
+		{
+			adjustedSpread				weapon_spread
+			adsFrac 					player_zoomFrac
+			isSprinting					player_is_sprinting
+			isReloading					weapon_is_reloading
+			readyFrac                   progress_ready_to_fire_frac
+			teamColor					crosshair_team_color
+			isAmped						weapon_is_amped
+			crosshairMovementX          "eWeaponVar.regen_ammo_refill_rate"
+			crosshairMovementY			"eWeaponVar.regen_ammo_refill_rate"
+			chargeFrac                  player_chargeFrac	
+		}
+
+		Crosshair_1
+		{
+			"ui"						"ui/crosshair_rearm"
+			"base_spread"				"10.0"
+			Args
+			{
+				crosshairMovementX          crosshair_movement_x
+				crosshairMovementY          crosshair_movement_y
+				isFiring					weapon_is_firing
+			}
+		}
+	
+		Crosshair_2
+		{
+			"ui"						"ui/crosshair_tactical"
+			Args
+			{
+			    ammoFrac                "progress_weapon_clip_ammo_frac"
+			    dryfireTime             "weapon_latest_dryfire_time"
+			}
+		}
+	}
+}

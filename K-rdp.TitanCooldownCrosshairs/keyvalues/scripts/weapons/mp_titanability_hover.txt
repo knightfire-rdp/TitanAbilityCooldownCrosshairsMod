@@ -1,0 +1,23 @@
+WeaponData
+{
+	"ordnance_crosshair_always_on_start_index"	"0"
+
+	RUI_CrosshairData
+	{
+		DefaultArgs
+		{
+			//crosshairMovementX          crosshair_movement_x
+			//crosshairMovementY          crosshair_movement_y
+			dryfireTime             "weapon_latest_dryfire_time"
+		}
+
+		Crosshair_2
+		{
+			"ui"						"ui/crosshair_tactical"
+			Args
+			{
+			    ammoFrac                "progress_weapon_clip_ammo_frac"
+			}
+		}
+	}
+}
