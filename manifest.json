@@ -1,0 +1,7 @@
+{
+    "name": "TitanCooldownCrosshairs",
+    "version_number":"1.0.0",
+    "website_url": "https://github.com/knightfire-rdp/TitanCooldownCrosshairs",
+    "description": "adds ability cooldown crosshairs for titans",
+    "dependencies": []
+}
